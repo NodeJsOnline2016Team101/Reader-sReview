@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Books go here!
+
+  ul
+  each book in allBooks
+    li= book.title
+        p= book.author
